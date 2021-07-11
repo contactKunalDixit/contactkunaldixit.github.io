@@ -1,0 +1,11 @@
+li {
+	margin-bottom: 25px;
+	a {
+		font-size: 30px;
+		color: white;
+		text-decoration: none;
+	}
+	&:hover {
+		font-weight: 500;
+	}
+}
