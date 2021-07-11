@@ -38,16 +38,11 @@ const AboutMe = () => {
 									to deliver user-centric solutions and maximizing customer
 									satisfaction.
 								</li>
-
-								<li>
-									I like exploring newer technologies and learning and sharing
-									the knowledge with others
-								</li>
 							</ul>
 						</div>
 						<div className='cvDownload'>
 							<a
-								href='../assets/Kunal_Dixit-Resume.pdf'
+								href='../assets/Kunal_Dixit-Resume.pdf.'
 								download
 								rel='noopener noreferrer'
 							>

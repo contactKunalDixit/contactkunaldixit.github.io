@@ -13,23 +13,7 @@ function Menu(props) {
 			id: 'aboutMe',
 			title: 'About Me',
 		},
-		{
-			id: 'Portfolio_nSkill	',
-			title: 'Portfolio_nSkill',
-		},
 
-		{
-			id: 'portfolio',
-			title: 'Portfolio',
-		},
-		{
-			id: 'works',
-			title: 'Works',
-		},
-		{
-			id: 'testimonials',
-			title: 'Testimonials',
-		},
 		{
 			id: 'contact',
 			title: 'Contact',
@@ -50,18 +34,7 @@ function Menu(props) {
 				<li onClick={() => props.setMenuOpen(false)}>
 					<a href='#aboutMe'>About Me</a>
 				</li>
-				<li onClick={() => props.setMenuOpen(false)}>
-					<a href='#Portfolio_nSkill'>Portfolio</a>
-				</li>
-				<li onClick={() => props.setMenuOpen(false)}>
-					<a href='#portfolio'>Portfolio- To b deleted</a>
-				</li>
-				<li onClick={() => props.setMenuOpen(false)}>
-					<a href='#works'>Works- To b deleted</a>
-				</li>
-				<li onClick={() => props.setMenuOpen(false)}>
-					<a href='#testimonials'>Testimonials</a>
-				</li>
+
 				<li onClick={() => props.setMenuOpen(false)}>
 					<a href='#contact'>Contact</a>
 				</li>
