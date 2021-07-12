@@ -42,7 +42,7 @@ const AboutMe = () => {
 						</div>
 						<div className='cvDownload'>
 							<a
-								href='../assets/Kunal_Dixit-Resume.pdf.'
+								href='assets/Kunal_Dixit-Resume.pdf'
 								download
 								rel='noopener noreferrer'
 							>
