@@ -9,7 +9,7 @@ function Topbar(props) {
 			<div className='wrapper'>
 				<div className='left'>
 					<a href='#intro' className='logo'>
-						contactkunaldixit.github.io
+						Creation.
 					</a>
 					<div className='itemContainer'>
 						<Call className='icon'></Call>
