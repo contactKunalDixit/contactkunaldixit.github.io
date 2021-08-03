@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './menu.scss';
+import { Link } from 'react-router-dom';
 // import MenuList from '../menuList/MenuList';
 
 function Menu(props) {
@@ -29,14 +30,23 @@ function Menu(props) {
 				))} */}
 
 				<li onClick={() => props.setMenuOpen(false)}>
-					<a href='#intro'>Home</a>
+					<Link to='intro'>Home</Link>
 				</li>
+
+				<li onClick={() => props.setMenuOpen(false)}>
+					<Link to='aboutMe'>About Me</Link>
+				</li>
+
 				<li onClick={() => props.setMenuOpen(false)}>
 					<a href='#aboutMe'>About Me</a>
 				</li>
 
 				<li onClick={() => props.setMenuOpen(false)}>
 					<a href='#contact'>Contact</a>
+				</li>
+
+				<li onClick={() => props.setMenuOpen(false)}>
+					<Link to='contact'>Contact</Link>
 				</li>
 			</ul>
 		</div>
