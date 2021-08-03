@@ -54,6 +54,7 @@ export default Menu;
 Also; Since the hamburger button has been alloted an event handler before;AND we are using the same state values;  thus when the event happens; the resulting change in the value will also trigger the above
 
 
+
 2. 
  <MenuList setMenuOpen = {props.setMenuOpen}><a href='#intro'>Home</a></MenuList> */
 /* Need to seperate as an exclusive component. All <li> elements to be clubbed together so that onCLick event handler doesnt have to be repeated.
