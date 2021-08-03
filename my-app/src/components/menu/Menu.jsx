@@ -38,14 +38,6 @@ function Menu(props) {
 				</li>
 
 				<li onClick={() => props.setMenuOpen(false)}>
-					<a href='#aboutMe'>About Me</a>
-				</li>
-
-				<li onClick={() => props.setMenuOpen(false)}>
-					<a href='#contact'>Contact</a>
-				</li>
-
-				<li onClick={() => props.setMenuOpen(false)}>
 					<Link to='contact'>Contact</Link>
 				</li>
 			</ul>
