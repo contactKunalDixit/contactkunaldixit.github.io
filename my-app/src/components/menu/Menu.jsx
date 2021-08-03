@@ -56,4 +56,5 @@ Also; Since the hamburger button has been alloted an event handler before;AND we
  <MenuList setMenuOpen = {props.setMenuOpen}><a href='#intro'>Home</a></MenuList> */
 /* Need to seperate as an exclusive component. All <li> elements to be clubbed together so that onCLick event handler doesnt have to be repeated.
 				
+				
 */
