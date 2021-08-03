@@ -6,7 +6,7 @@ import Intro from './components/intro/Intro';
 import Contact from './components/contact/Contact';
 import './app.scss';
 import AboutMe from './components/aboutMe/AboutMe';
-
+import { Route, Switch, Redirect } from 'react-router-dom';
 function App() {
 	const [menuOpen, setMenuOpen] = useState(false); /* 1 */
 	return (
@@ -14,9 +14,12 @@ function App() {
 			<Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}></Topbar>
 			<Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}></Menu>
 			<div className='sections'>
-				<Intro></Intro>
-				<AboutMe></AboutMe>
-				<Contact></Contact>
+				<Switch>
+					<Route path='/intro' exact component={Intro}></Route>
+					<Route path='/aboutMe' component={AboutMe}></Route>
+					<Route path='/contact' component={Contact}></Route>
+					<Redirect to='/intro'></Redirect>
+				</Switch>
 			</div>
 		</div>
 	);
