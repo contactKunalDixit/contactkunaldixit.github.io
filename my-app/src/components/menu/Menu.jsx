@@ -1,6 +1,6 @@
+/* Menu.jsx */
 import React, { useState } from 'react';
 import './menu.scss';
-import { Link } from 'react-router-dom';
 // import MenuList from '../menuList/MenuList';
 
 function Menu(props) {
@@ -30,15 +30,14 @@ function Menu(props) {
 				))} */}
 
 				<li onClick={() => props.setMenuOpen(false)}>
-					<Link to='intro'>Home</Link>
+					<a href='#intro'>Home</a>
+				</li>
+				<li onClick={() => props.setMenuOpen(false)}>
+					<a href='#aboutMe'>About Me</a>
 				</li>
 
 				<li onClick={() => props.setMenuOpen(false)}>
-					<Link to='aboutMe'>About Me</Link>
-				</li>
-
-				<li onClick={() => props.setMenuOpen(false)}>
-					<Link to='contact'>Contact</Link>
+					<a href='#contact'>Contact</a>
 				</li>
 			</ul>
 		</div>
@@ -54,10 +53,8 @@ export default Menu;
 Also; Since the hamburger button has been alloted an event handler before;AND we are using the same state values;  thus when the event happens; the resulting change in the value will also trigger the above
 
 
-
 2. 
  <MenuList setMenuOpen = {props.setMenuOpen}><a href='#intro'>Home</a></MenuList> */
 /* Need to seperate as an exclusive component. All <li> elements to be clubbed together so that onCLick event handler doesnt have to be repeated.
-				
 				
 */
