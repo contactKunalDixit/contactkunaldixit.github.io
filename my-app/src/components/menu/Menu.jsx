@@ -1,3 +1,4 @@
+/* Menu.jsx */
 import React, { useState } from 'react';
 import './menu.scss';
 // import MenuList from '../menuList/MenuList';

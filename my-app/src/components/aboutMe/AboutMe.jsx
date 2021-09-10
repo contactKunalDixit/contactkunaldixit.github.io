@@ -7,7 +7,7 @@ const AboutMe = () => {
 			<div className='container1'>
 				<div className='left'>
 					<div className='imgContainer'>
-						<img src='assets/Pic_13.png' alt='' />
+						<img src='assets/KunalCartoonPotrait.jpg' alt='' />
 					</div>
 				</div>
 				<div className='right'>
